@@ -2,7 +2,7 @@
 Ensure that the `noalias` optimization takes effect by expanding to closure call.
 
 ### Implementation
-This library only contains one macro definition:
+This library only contains one macro definition, but the first 12 items have been expanded to ensure parameter transfer.
 ```rust
 #[doc(hidden)]
 #[inline(always)]

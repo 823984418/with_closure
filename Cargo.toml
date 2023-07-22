@@ -1,6 +1,6 @@
 [package]
 name = "with_closure"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Ensure that the `noalias` optimization takes effect by expanding to closure call"
 keywords = ["noalias", "with"]
